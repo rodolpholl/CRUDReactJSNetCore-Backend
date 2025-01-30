@@ -3,20 +3,144 @@
   "WorkspaceRootPath": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08881A31-6C4B-4DCE-8F70-19B49F4ADBDB}|CRUDReactJSNetCore.Infrastructure\\CRUDReactJSNetCore.Infrastructure.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08881A31-6C4B-4DCE-8F70-19B49F4ADBDB}|CRUDReactJSNetCore.Infrastructure\\CRUDReactJSNetCore.Infrastructure.csproj|solutionrelative:crudreactjsnetcore.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08881A31-6C4B-4DCE-8F70-19B49F4ADBDB}|CRUDReactJSNetCore.Infrastructure\\CRUDReactJSNetCore.Infrastructure.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.infrastructure\\repository\\funcionariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08881A31-6C4B-4DCE-8F70-19B49F4ADBDB}|CRUDReactJSNetCore.Infrastructure\\CRUDReactJSNetCore.Infrastructure.csproj|solutionrelative:crudreactjsnetcore.infrastructure\\repository\\funcionariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|solutionrelative:crudreactjsnetcore.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08881A31-6C4B-4DCE-8F70-19B49F4ADBDB}|CRUDReactJSNetCore.Infrastructure\\CRUDReactJSNetCore.Infrastructure.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.infrastructure\\repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08881A31-6C4B-4DCE-8F70-19B49F4ADBDB}|CRUDReactJSNetCore.Infrastructure\\CRUDReactJSNetCore.Infrastructure.csproj|solutionrelative:crudreactjsnetcore.infrastructure\\repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{853E7D64-F994-41F9-905E-1DCF2DE93947}|CRUDReactJSNetCore.Domain\\CRUDReactJSNetCore.Domain.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.domain\\entities\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{853E7D64-F994-41F9-905E-1DCF2DE93947}|CRUDReactJSNetCore.Domain\\CRUDReactJSNetCore.Domain.csproj|solutionrelative:crudreactjsnetcore.domain\\entities\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{853E7D64-F994-41F9-905E-1DCF2DE93947}|CRUDReactJSNetCore.Domain\\CRUDReactJSNetCore.Domain.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.domain\\entities\\cargos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{853E7D64-F994-41F9-905E-1DCF2DE93947}|CRUDReactJSNetCore.Domain\\CRUDReactJSNetCore.Domain.csproj|solutionrelative:crudreactjsnetcore.domain\\entities\\cargos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{853E7D64-F994-41F9-905E-1DCF2DE93947}|CRUDReactJSNetCore.Domain\\CRUDReactJSNetCore.Domain.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.domain\\entities\\cargo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{853E7D64-F994-41F9-905E-1DCF2DE93947}|CRUDReactJSNetCore.Domain\\CRUDReactJSNetCore.Domain.csproj|solutionrelative:crudreactjsnetcore.domain\\entities\\cargo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{853E7D64-F994-41F9-905E-1DCF2DE93947}|CRUDReactJSNetCore.Domain\\CRUDReactJSNetCore.Domain.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.domain\\entities\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{853E7D64-F994-41F9-905E-1DCF2DE93947}|CRUDReactJSNetCore.Domain\\CRUDReactJSNetCore.Domain.csproj|solutionrelative:crudreactjsnetcore.domain\\entities\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{853E7D64-F994-41F9-905E-1DCF2DE93947}|CRUDReactJSNetCore.Domain\\CRUDReactJSNetCore.Domain.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.domain\\enums\\cargoenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{853E7D64-F994-41F9-905E-1DCF2DE93947}|CRUDReactJSNetCore.Domain\\CRUDReactJSNetCore.Domain.csproj|solutionrelative:crudreactjsnetcore.domain\\enums\\cargoenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08881A31-6C4B-4DCE-8F70-19B49F4ADBDB}|CRUDReactJSNetCore.Infrastructure\\CRUDReactJSNetCore.Infrastructure.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.infrastructure\\infrastructureservicesregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08881A31-6C4B-4DCE-8F70-19B49F4ADBDB}|CRUDReactJSNetCore.Infrastructure\\CRUDReactJSNetCore.Infrastructure.csproj|solutionrelative:crudreactjsnetcore.infrastructure\\infrastructureservicesregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A3872B4-4E69-445B-9E09-92B9020F3FAA}|CRUDReactJSNetCore.API\\CRUDReactJSNetCore.API.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A3872B4-4E69-445B-9E09-92B9020F3FAA}|CRUDReactJSNetCore.API\\CRUDReactJSNetCore.API.csproj|solutionrelative:crudreactjsnetcore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08881A31-6C4B-4DCE-8F70-19B49F4ADBDB}|CRUDReactJSNetCore.Infrastructure\\CRUDReactJSNetCore.Infrastructure.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.infrastructure\\modelmapping\\cargomodelconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08881A31-6C4B-4DCE-8F70-19B49F4ADBDB}|CRUDReactJSNetCore.Infrastructure\\CRUDReactJSNetCore.Infrastructure.csproj|solutionrelative:crudreactjsnetcore.infrastructure\\modelmapping\\cargomodelconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08881A31-6C4B-4DCE-8F70-19B49F4ADBDB}|CRUDReactJSNetCore.Infrastructure\\CRUDReactJSNetCore.Infrastructure.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.infrastructure\\modelmapping\\funcionariomodelconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08881A31-6C4B-4DCE-8F70-19B49F4ADBDB}|CRUDReactJSNetCore.Infrastructure\\CRUDReactJSNetCore.Infrastructure.csproj|solutionrelative:crudreactjsnetcore.infrastructure\\modelmapping\\funcionariomodelconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.application\\feature\\funcionario\\query\\listfuncionario\\listfuncionariorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|solutionrelative:crudreactjsnetcore.application\\feature\\funcionario\\query\\listfuncionario\\listfuncionariorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.application\\feature\\funcionario\\query\\listfuncionario\\listfuncionarioresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|solutionrelative:crudreactjsnetcore.application\\feature\\funcionario\\query\\listfuncionario\\listfuncionarioresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.application\\feature\\funcionario\\query\\getfuncionariobyid\\getfuncionariobyidresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|solutionrelative:crudreactjsnetcore.application\\feature\\funcionario\\query\\getfuncionariobyid\\getfuncionariobyidresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.application\\feature\\funcionario\\query\\getfuncionariobyid\\getfuncionariobyidrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|solutionrelative:crudreactjsnetcore.application\\feature\\funcionario\\query\\getfuncionariobyid\\getfuncionariobyidrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.application\\feature\\funcionario\\command\\alterarfuncionario\\alterarfuncionariorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|solutionrelative:crudreactjsnetcore.application\\feature\\funcionario\\command\\alterarfuncionario\\alterarfuncionariorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.application\\feature\\funcionario\\command\\inserirfuncionario\\inserirfuncionariorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|solutionrelative:crudreactjsnetcore.application\\feature\\funcionario\\command\\inserirfuncionario\\inserirfuncionariorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.application\\feature\\funcionario\\command\\reativarfuncionario\\reativarfuncionariorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|solutionrelative:crudreactjsnetcore.application\\feature\\funcionario\\command\\reativarfuncionario\\reativarfuncionariorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.application\\feature\\funcionario\\command\\excluirfuncionario\\excluirfuncionariorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|solutionrelative:crudreactjsnetcore.application\\feature\\funcionario\\command\\excluirfuncionario\\excluirfuncionariorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.application\\feature\\funcionario\\command\\desativarfuncionario\\desativarfuncionariorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|solutionrelative:crudreactjsnetcore.application\\feature\\funcionario\\command\\desativarfuncionario\\desativarfuncionariorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.application\\feature\\funcionario\\command\\reativarfuncionario\\reativarfuncionariorequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|solutionrelative:crudreactjsnetcore.application\\feature\\funcionario\\command\\reativarfuncionario\\reativarfuncionariorequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.application\\feature\\funcionario\\command\\reativarfuncionario\\reativarfuncionariorequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|solutionrelative:crudreactjsnetcore.application\\feature\\funcionario\\command\\reativarfuncionario\\reativarfuncionariorequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.application\\feature\\funcionario\\command\\excluirfuncionario\\excluirfuncionariorequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|solutionrelative:crudreactjsnetcore.application\\feature\\funcionario\\command\\excluirfuncionario\\excluirfuncionariorequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.application\\feature\\funcionario\\command\\excluirfuncionario\\excluirfuncionariorequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|solutionrelative:crudreactjsnetcore.application\\feature\\funcionario\\command\\excluirfuncionario\\excluirfuncionariorequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.application\\feature\\funcionario\\command\\desativarfuncionario\\desativarfuncionariorequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|solutionrelative:crudreactjsnetcore.application\\feature\\funcionario\\command\\desativarfuncionario\\desativarfuncionariorequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.application\\feature\\funcionario\\command\\desativarfuncionario\\desativarfuncionariorequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|solutionrelative:crudreactjsnetcore.application\\feature\\funcionario\\command\\desativarfuncionario\\desativarfuncionariorequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.application\\feature\\funcionario\\command\\alterarfuncionario\\alterarfuncionariorequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|solutionrelative:crudreactjsnetcore.application\\feature\\funcionario\\command\\alterarfuncionario\\alterarfuncionariorequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.application\\feature\\funcionario\\command\\alterarfuncionario\\alterarfuncionariorequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|solutionrelative:crudreactjsnetcore.application\\feature\\funcionario\\command\\alterarfuncionario\\alterarfuncionariorequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.application\\repository\\icargorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|solutionrelative:crudreactjsnetcore.application\\repository\\icargorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.application\\applicationservicesregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|solutionrelative:crudreactjsnetcore.application\\applicationservicesregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.application\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|solutionrelative:crudreactjsnetcore.application\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.application\\behaviors\\unhandlerexceptionbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|solutionrelative:crudreactjsnetcore.application\\behaviors\\unhandlerexceptionbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.application\\feature\\funcionario\\command\\inserirfuncionario\\inserirfuncionariorequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|solutionrelative:crudreactjsnetcore.application\\feature\\funcionario\\command\\inserirfuncionario\\inserirfuncionariorequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.application\\feature\\funcionario\\command\\inserirfuncionario\\inserirfuncionariorequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5FF009C-5FDD-467F-AB74-6232F73C154E}|CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj|solutionrelative:crudreactjsnetcore.application\\feature\\funcionario\\command\\inserirfuncionario\\inserirfuncionariorequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D141E09-F052-4C64-95D6-DFEBA845392B}|CRUDReactJSNetCore.Test\\CRUDReactJSNetCore.Test.csproj|e:\\projetos\\crudreactjsnetcore\\backend\\crudreactjsnetcore.test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D141E09-F052-4C64-95D6-DFEBA845392B}|CRUDReactJSNetCore.Test\\CRUDReactJSNetCore.Test.csproj|solutionrelative:crudreactjsnetcore.test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|e:\\projetos\\crudreactjsnetcore\\backend\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +150,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,40 +166,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Infrastructure\\Class1.cs",
-              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Infrastructure\\Class1.cs",
-              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Infrastructure\\Class1.cs",
-              "RelativeToolTip": "CRUDReactJSNetCore.Infrastructure\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T20:56:07.834Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Class1.cs",
-              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Application\\Class1.cs",
-              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Class1.cs",
-              "RelativeToolTip": "CRUDReactJSNetCore.Application\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Infrastructure\\Repository\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Infrastructure\\Repository\\RepositoryBase.cs",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Infrastructure\\Repository\\RepositoryBase.cs",
+              "RelativeToolTip": "CRUDReactJSNetCore.Infrastructure\\Repository\\RepositoryBase.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAqwAcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T20:54:46.667Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Cargos.cs",
-              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Domain\\Entities\\Cargos.cs",
-              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Domain\\Entities\\Cargos.cs",
-              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Domain\\Entities\\Cargos.cs",
-              "RelativeToolTip": "CRUDReactJSNetCore.Domain\\Entities\\Cargos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T20:46:41.127Z"
+              "WhenOpened": "2025-01-30T03:28:34.427Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -85,9 +185,439 @@
               "RelativeDocumentMoniker": "CRUDReactJSNetCore.Domain\\Entities\\Funcionario.cs",
               "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Domain\\Entities\\Funcionario.cs",
               "RelativeToolTip": "CRUDReactJSNetCore.Domain\\Entities\\Funcionario.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACIAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T20:25:10.787Z"
+              "WhenOpened": "2025-01-30T03:12:40.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EntityBase.cs",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Domain\\Entities\\EntityBase.cs",
+              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Domain\\Entities\\EntityBase.cs",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Domain\\Entities\\EntityBase.cs",
+              "RelativeToolTip": "CRUDReactJSNetCore.Domain\\Entities\\EntityBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T03:11:41.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FuncionarioRepository.cs",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Infrastructure\\Repository\\FuncionarioRepository.cs",
+              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Infrastructure\\Repository\\FuncionarioRepository.cs",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Infrastructure\\Repository\\FuncionarioRepository.cs",
+              "RelativeToolTip": "CRUDReactJSNetCore.Infrastructure\\Repository\\FuncionarioRepository.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAEQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T03:09:23.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CargoEnum.cs",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Domain\\Enums\\CargoEnum.cs",
+              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Domain\\Enums\\CargoEnum.cs",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Domain\\Enums\\CargoEnum.cs",
+              "RelativeToolTip": "CRUDReactJSNetCore.Domain\\Enums\\CargoEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T02:47:49.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CargoModelConfig.cs",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Infrastructure\\ModelMapping\\CargoModelConfig.cs",
+              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Infrastructure\\ModelMapping\\CargoModelConfig.cs",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Infrastructure\\ModelMapping\\CargoModelConfig.cs",
+              "RelativeToolTip": "CRUDReactJSNetCore.Infrastructure\\ModelMapping\\CargoModelConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T02:33:14.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FuncionarioModelConfig.cs",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Infrastructure\\ModelMapping\\FuncionarioModelConfig.cs",
+              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Infrastructure\\ModelMapping\\FuncionarioModelConfig.cs",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Infrastructure\\ModelMapping\\FuncionarioModelConfig.cs",
+              "RelativeToolTip": "CRUDReactJSNetCore.Infrastructure\\ModelMapping\\FuncionarioModelConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T02:18:17.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ListFuncionarioRequest.cs",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Query\\ListFuncionario\\ListFuncionarioRequest.cs",
+              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Query\\ListFuncionario\\ListFuncionarioRequest.cs",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Query\\ListFuncionario\\ListFuncionarioRequest.cs",
+              "RelativeToolTip": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Query\\ListFuncionario\\ListFuncionarioRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T01:40:09.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cargo.cs",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Domain\\Entities\\Cargo.cs",
+              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Domain\\Entities\\Cargo.cs",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Domain\\Entities\\Cargo.cs",
+              "RelativeToolTip": "CRUDReactJSNetCore.Domain\\Entities\\Cargo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T20:46:41.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ListFuncionarioResponse.cs",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Query\\ListFuncionario\\ListFuncionarioResponse.cs",
+              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Query\\ListFuncionario\\ListFuncionarioResponse.cs",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Query\\ListFuncionario\\ListFuncionarioResponse.cs",
+              "RelativeToolTip": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Query\\ListFuncionario\\ListFuncionarioResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T01:40:25.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetFuncionarioByIdResponse.cs",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Query\\GetFuncionarioById\\GetFuncionarioByIdResponse.cs",
+              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Query\\GetFuncionarioById\\GetFuncionarioByIdResponse.cs",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Query\\GetFuncionarioById\\GetFuncionarioByIdResponse.cs",
+              "RelativeToolTip": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Query\\GetFuncionarioById\\GetFuncionarioByIdResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T01:38:02.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InfrastructureServicesRegister.cs",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Infrastructure\\InfrastructureServicesRegister.cs",
+              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Infrastructure\\InfrastructureServicesRegister.cs",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Infrastructure\\InfrastructureServicesRegister.cs",
+              "RelativeToolTip": "CRUDReactJSNetCore.Infrastructure\\InfrastructureServicesRegister.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T20:56:07.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.API\\Program.cs",
+              "RelativeDocumentMoniker": "CRUDReactJSNetCore.API\\Program.cs",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.API\\Program.cs",
+              "RelativeToolTip": "CRUDReactJSNetCore.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T23:42:40.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetFuncionarioByIdRequest.cs",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Query\\GetFuncionarioById\\GetFuncionarioByIdRequest.cs",
+              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Query\\GetFuncionarioById\\GetFuncionarioByIdRequest.cs",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Query\\GetFuncionarioById\\GetFuncionarioByIdRequest.cs",
+              "RelativeToolTip": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Query\\GetFuncionarioById\\GetFuncionarioByIdRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T01:37:25.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ReativarFuncionarioRequestValidator.cs",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\ReativarFuncionario\\ReativarFuncionarioRequestValidator.cs",
+              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\ReativarFuncionario\\ReativarFuncionarioRequestValidator.cs",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\ReativarFuncionario\\ReativarFuncionarioRequestValidator.cs",
+              "RelativeToolTip": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\ReativarFuncionario\\ReativarFuncionarioRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T01:26:28.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ReativarFuncionarioRequest.cs",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\ReativarFuncionario\\ReativarFuncionarioRequest.cs",
+              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\ReativarFuncionario\\ReativarFuncionarioRequest.cs",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\ReativarFuncionario\\ReativarFuncionarioRequest.cs",
+              "RelativeToolTip": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\ReativarFuncionario\\ReativarFuncionarioRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T01:26:09.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ExcluirFuncionarioRequest.cs",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\ExcluirFuncionario\\ExcluirFuncionarioRequest.cs",
+              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\ExcluirFuncionario\\ExcluirFuncionarioRequest.cs",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\ExcluirFuncionario\\ExcluirFuncionarioRequest.cs",
+              "RelativeToolTip": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\ExcluirFuncionario\\ExcluirFuncionarioRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T01:25:31.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ReativarFuncionarioRequestHandler.cs",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\ReativarFuncionario\\ReativarFuncionarioRequestHandler.cs",
+              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\ReativarFuncionario\\ReativarFuncionarioRequestHandler.cs",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\ReativarFuncionario\\ReativarFuncionarioRequestHandler.cs",
+              "RelativeToolTip": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\ReativarFuncionario\\ReativarFuncionarioRequestHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T01:26:20.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AlterarFuncionarioRequest.cs",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\AlterarFuncionario\\AlterarFuncionarioRequest.cs",
+              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\AlterarFuncionario\\AlterarFuncionarioRequest.cs",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\AlterarFuncionario\\AlterarFuncionarioRequest.cs",
+              "RelativeToolTip": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\AlterarFuncionario\\AlterarFuncionarioRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T01:14:05.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "InserirFuncionarioRequest.cs",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\InserirFuncionario\\InserirFuncionarioRequest.cs",
+              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\InserirFuncionario\\InserirFuncionarioRequest.cs",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\InserirFuncionario\\InserirFuncionarioRequest.cs",
+              "RelativeToolTip": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\InserirFuncionario\\InserirFuncionarioRequest.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T22:58:41.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ExcluirFuncionarioRequestValidator.cs",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\ExcluirFuncionario\\ExcluirFuncionarioRequestValidator.cs",
+              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\ExcluirFuncionario\\ExcluirFuncionarioRequestValidator.cs",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\ExcluirFuncionario\\ExcluirFuncionarioRequestValidator.cs",
+              "RelativeToolTip": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\ExcluirFuncionario\\ExcluirFuncionarioRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T01:25:53.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DesativarFuncionarioRequest.cs",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\DesativarFuncionario\\DesativarFuncionarioRequest.cs",
+              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\DesativarFuncionario\\DesativarFuncionarioRequest.cs",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\DesativarFuncionario\\DesativarFuncionarioRequest.cs",
+              "RelativeToolTip": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\DesativarFuncionario\\DesativarFuncionarioRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T01:23:30.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ExcluirFuncionarioRequestHandler.cs",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\ExcluirFuncionario\\ExcluirFuncionarioRequestHandler.cs",
+              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\ExcluirFuncionario\\ExcluirFuncionarioRequestHandler.cs",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\ExcluirFuncionario\\ExcluirFuncionarioRequestHandler.cs",
+              "RelativeToolTip": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\ExcluirFuncionario\\ExcluirFuncionarioRequestHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T01:25:41.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DesativarFuncionarioRequestHandler.cs",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\DesativarFuncionario\\DesativarFuncionarioRequestHandler.cs",
+              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\DesativarFuncionario\\DesativarFuncionarioRequestHandler.cs",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\DesativarFuncionario\\DesativarFuncionarioRequestHandler.cs",
+              "RelativeToolTip": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\DesativarFuncionario\\DesativarFuncionarioRequestHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T01:24:50.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DesativarFuncionarioRequestValidator.cs",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\DesativarFuncionario\\DesativarFuncionarioRequestValidator.cs",
+              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\DesativarFuncionario\\DesativarFuncionarioRequestValidator.cs",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\DesativarFuncionario\\DesativarFuncionarioRequestValidator.cs",
+              "RelativeToolTip": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\DesativarFuncionario\\DesativarFuncionarioRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T01:24:40.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AlterarFuncionarioRequestHandler.cs",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\AlterarFuncionario\\AlterarFuncionarioRequestHandler.cs",
+              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\AlterarFuncionario\\AlterarFuncionarioRequestHandler.cs",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\AlterarFuncionario\\AlterarFuncionarioRequestHandler.cs",
+              "RelativeToolTip": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\AlterarFuncionario\\AlterarFuncionarioRequestHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T01:14:24.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AlterarFuncionarioRequestValidator.cs",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\AlterarFuncionario\\AlterarFuncionarioRequestValidator.cs",
+              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\AlterarFuncionario\\AlterarFuncionarioRequestValidator.cs",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\AlterarFuncionario\\AlterarFuncionarioRequestValidator.cs",
+              "RelativeToolTip": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\AlterarFuncionario\\AlterarFuncionarioRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T01:14:14.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ICargoRepository.cs",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Repository\\ICargoRepository.cs",
+              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Application\\Repository\\ICargoRepository.cs",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Repository\\ICargoRepository.cs",
+              "RelativeToolTip": "CRUDReactJSNetCore.Application\\Repository\\ICargoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T00:25:24.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ValidationBehavior.cs",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Behaviors\\ValidationBehavior.cs",
+              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Application\\Behaviors\\ValidationBehavior.cs",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Behaviors\\ValidationBehavior.cs",
+              "RelativeToolTip": "CRUDReactJSNetCore.Application\\Behaviors\\ValidationBehavior.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T23:35:38.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UnhandlerExceptionBehavior.cs",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Behaviors\\UnhandlerExceptionBehavior.cs",
+              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Application\\Behaviors\\UnhandlerExceptionBehavior.cs",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Behaviors\\UnhandlerExceptionBehavior.cs",
+              "RelativeToolTip": "CRUDReactJSNetCore.Application\\Behaviors\\UnhandlerExceptionBehavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T23:27:49.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "InserirFuncionarioRequestHandler.cs",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\InserirFuncionario\\InserirFuncionarioRequestHandler.cs",
+              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\InserirFuncionario\\InserirFuncionarioRequestHandler.cs",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\InserirFuncionario\\InserirFuncionarioRequestHandler.cs",
+              "RelativeToolTip": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\InserirFuncionario\\InserirFuncionarioRequestHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T22:59:57.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "InserirFuncionarioRequestValidator.cs",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\InserirFuncionario\\InserirFuncionarioRequestValidator.cs",
+              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\InserirFuncionario\\InserirFuncionarioRequestValidator.cs",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\InserirFuncionario\\InserirFuncionarioRequestValidator.cs",
+              "RelativeToolTip": "CRUDReactJSNetCore.Application\\Feature\\Funcionario\\Command\\InserirFuncionario\\InserirFuncionarioRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T22:59:46.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Test\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Test\\UnitTest1.cs",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Test\\UnitTest1.cs",
+              "RelativeToolTip": "CRUDReactJSNetCore.Test\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T22:40:47.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-01-29T21:44:56.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ApplicationServicesRegister.cs",
+              "DocumentMoniker": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\ApplicationServicesRegister.cs",
+              "RelativeDocumentMoniker": "CRUDReactJSNetCore.Application\\ApplicationServicesRegister.cs",
+              "ToolTip": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\ApplicationServicesRegister.cs",
+              "RelativeToolTip": "CRUDReactJSNetCore.Application\\ApplicationServicesRegister.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T20:54:46.667Z",
+              "EditorCaption": ""
             }
           ]
         }

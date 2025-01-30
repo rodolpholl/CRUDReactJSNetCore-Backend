@@ -1,0 +1,6 @@
+services:
+  crudreactjsnetcore.api:
+    image: ${DOCKER_REGISTRY-}crudreactjsnetcoreapi
+    build:
+      context: .
+      dockerfile: CRUDReactJSNetCore.API/Dockerfile

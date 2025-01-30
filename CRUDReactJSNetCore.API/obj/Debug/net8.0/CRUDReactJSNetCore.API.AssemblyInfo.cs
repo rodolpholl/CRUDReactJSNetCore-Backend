@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("0e4cd65f-54b4-493a-9137-b15d169afd50")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRUDReactJSNetCore.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e80d2d3bdf47412753facbe7c360b53f2e895124")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1110fae6962c606c7e347ee3681e9cae01963229")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRUDReactJSNetCore.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRUDReactJSNetCore.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
