@@ -62,14 +62,11 @@ namespace CRUDReactJSNetCore.Infrastructure.Repository
 
         }
 
-
         private IQueryable<Funcionario> setIncludes(IQueryable<Funcionario> query)
         => query.Include(x => x.Cargo)
                 .Include(x => x.Gestor)
+                    .ThenInclude(x => x.Cargo)
             .AsQueryable();
-
-
-
 
     }
 }
