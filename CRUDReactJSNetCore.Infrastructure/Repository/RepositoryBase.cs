@@ -1,5 +1,6 @@
 ﻿using CRUDReactJSNetCore.Domain.Entities;
 using CRUDReactJSNetCore.Infrastructure.ContextDb;
+using Microsoft.EntityFrameworkCore;
 
 namespace CRUDReactJSNetCore.Infrastructure.Repository
 {
@@ -47,5 +48,7 @@ namespace CRUDReactJSNetCore.Infrastructure.Repository
         protected IQueryable<T> PaginateQuery(IQueryable<T> query, int pageIndex, int pageCont)
         => query.Skip(pageIndex * pageCont).Take(pageCont);
 
+        protected Task<bool> Exists(long id)
+        => _dbContext.Set<T>().AnyAsync(x => x.Id == id);
     }
 }

@@ -1,6 +1,24 @@
 services:
-  crudreactjsnetcore.api:
-    image: ${DOCKER_REGISTRY-}crudreactjsnetcoreapi
+  db:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: db
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=SenhaFuncionario!
+      - MSSQL_PID=Developer
+    ports:
+      - "1433:1433"
+    volumes:
+      - sql_data:/var/opt/mssql
+
+  funcionario.api:
+    container_name: funcionario.api
+    image: ${DOCKER_REGISTRY-}funcionarioapi
+    ports:
+      - "9000:8080"
     build:
       context: .
-      dockerfile: CRUDReactJSNetCore.API/Dockerfile
+      dockerfile: Funcionario.Api/Dockerfile
+
+volumes:
+  sql_data:

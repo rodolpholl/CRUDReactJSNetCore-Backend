@@ -4,7 +4,6 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>0e4cd65f-54b4-493a-9137-b15d169afd50</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
@@ -12,11 +11,16 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.12" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ExceptionResults\" />
+    <ProjectReference Include="..\CRUDReactJSNetCore.Application\CRUDReactJSNetCore.Application.csproj" />
+    <ProjectReference Include="..\CRUDReactJSNetCore.Domain\CRUDReactJSNetCore.Domain.csproj" />
+    <ProjectReference Include="..\CRUDReactJSNetCore.Infrastructure\CRUDReactJSNetCore.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

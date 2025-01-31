@@ -1,4 +1,5 @@
-﻿using FluentValidation;
+﻿using CRUDReactJSNetCore.Application.Utils;
+using FluentValidation;
 using MediatR;
 
 namespace CRUDReactJSNetCore.Application.Behaviors
@@ -23,7 +24,7 @@ namespace CRUDReactJSNetCore.Application.Behaviors
                     .ToList();
 
                 if (failures.Any())
-                    throw new ValidationException("Validation Errors|", failures);
+                    throw new ValidationException($"{ConstantsUtils.VALIDATION_ERROR}|", failures);
             }
 
             return await next();

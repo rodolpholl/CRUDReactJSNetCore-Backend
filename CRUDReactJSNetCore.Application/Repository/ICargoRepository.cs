@@ -4,7 +4,7 @@ namespace CRUDReactJSNetCore.Application.Repository
 {
     public interface ICargoRepository
     {
-        Task<List<Cargo>> ListCargos();
+        Task<IEnumerable<Cargo>> ListCargos();
         Task<Cargo> GetCargoById(long cargoId);
     }
 }

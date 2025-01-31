@@ -6,9 +6,9 @@ namespace CRUDReactJSNetCore.Domain.Entities
     {
         public required string Nome { get; set; }
         public required string Email { get; set; }
-        public required long CargoId { get; set; }
+        public long CargoId { get; set; }
         public DateTime DataNascimento { get; set; }
-        public required string Documento { get; set; }
+        public string Documento { get; set; }
         public string TelefoneString { get; set; }
         [NotMapped]
         public string[]? Telefone
@@ -22,20 +22,20 @@ namespace CRUDReactJSNetCore.Domain.Entities
                 }
             }
         }
-        public long GestorId { get; set; }
+        public long? GestorId { get; set; }
         public string Senha { get; set; }
         public DateTime DataCriacao { get; set; }
         public long UsuarioCadastro { get; set; }
-        public DateTime DataDesativacao { get; set; }
-        public long UsuarioDesativacao { get; set; }
-        public DateTime DataReativacao { get; set; }
-        public long UsuarioReativacao { get; set; }
+        public DateTime? DataDesativacao { get; set; }
+        public long? UsuarioDesativacao { get; set; }
+        public DateTime? DataReativacao { get; set; }
+        public long? UsuarioReativacao { get; set; }
 
 
         #region Relacionamentos
 
         public Cargo Cargo { get; set; }
-        public Funcionario Gestor { get; set; }
+        public Funcionario? Gestor { get; set; }
 
         #endregion
     }

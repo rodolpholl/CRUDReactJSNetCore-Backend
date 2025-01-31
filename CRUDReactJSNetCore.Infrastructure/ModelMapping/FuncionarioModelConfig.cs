@@ -32,7 +32,8 @@ namespace CRUDReactJSNetCore.Infrastructure.ModelMapping
 
             builder.HasOne(x => x.Gestor)
                 .WithMany()
-                .HasForeignKey(x => x.GestorId);
+                .HasForeignKey(x => x.GestorId)
+                .OnDelete(DeleteBehavior.Restrict);
 
             #endregion
         }

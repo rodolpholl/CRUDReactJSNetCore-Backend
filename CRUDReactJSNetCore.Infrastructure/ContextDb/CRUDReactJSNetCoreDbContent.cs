@@ -30,6 +30,11 @@ namespace CRUDReactJSNetCore.Infrastructure.ContextDb
                     {
                         new Cargo
                         {
+                            Nome = "Administrador Sistema",
+                            Level = 0
+                        },
+                        new Cargo
+                        {
                              Nome = "Diretor",
                              Level = 1
                         },
@@ -62,6 +67,25 @@ namespace CRUDReactJSNetCore.Infrastructure.ContextDb
                     };
 
                     await Cargos.AddRangeAsync(arNewCargos);
+
+                    if (!Funcionarios.AsEnumerable().Any())
+                    {
+                        var funcionario = new Funcionario
+                        {
+                            Nome = "Master",
+                            Email = "admin@admin.com.br",
+                            Active = true,
+                            CargoId = 1,
+                            Senha = "Admin123",
+                            Documento = "123AdminDoc",
+                            TelefoneString = "123456789",
+                            DataCriacao = DateTime.Now
+                        };
+                        await Funcionarios.AddAsync(funcionario);
+
+                    }
+
+
                     await SaveChangesAsync();
                 }
             }

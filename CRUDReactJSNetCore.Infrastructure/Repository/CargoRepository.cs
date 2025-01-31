@@ -14,7 +14,7 @@ namespace CRUDReactJSNetCore.Infrastructure.Repository
         public Task<Cargo> GetCargoById(long cargoId)
         => GetById(cargoId);
 
-        public Task<List<Cargo>> ListCargos()
-        => _dbContext.Cargos.OrderBy(x => x.Level).ToListAsync();
+        public async Task<IEnumerable<Cargo>> ListCargos()
+        => (await _dbContext.Cargos.Where(x => x.Level > 0 && x.Active == true).OrderBy(x => x.Level).ToListAsync()).AsEnumerable();
     }
 }

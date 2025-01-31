@@ -4,7 +4,8 @@
       "commandName": "DockerCompose",
       "commandVersion": "1.0",
       "serviceActions": {
-        "crudreactjsnetcore.api": "StartDebugging"
+        "crudreactjsnetcore.api": "StartDebugging",
+        "funcionario.api": "StartDebugging"
       }
     }
   }
