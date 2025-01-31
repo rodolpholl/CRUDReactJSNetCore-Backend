@@ -1,3 +1,4 @@
+version: '3.8'
 services:
   db:
     image: mcr.microsoft.com/mssql/server:2019-latest
@@ -19,6 +20,8 @@ services:
     build:
       context: .
       dockerfile: Funcionario.Api/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
 
 volumes:
   sql_data:

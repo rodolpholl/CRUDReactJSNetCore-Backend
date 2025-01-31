@@ -85,8 +85,15 @@ namespace CRUDReactJSNetCore.Infrastructure.Repository
         => _dbContext.Funcionarios.AnyAsync(x => x.Id == funcinarioId && x.Active == true);
 
         public async Task<IEnumerable<Funcionario>> ListGestores(long level)
-        => (await _dbContext.Funcionarios.Where(x => x.Active == true && x.Cargo.Level < level)
-            .OrderBy(x => x.Nome).ToListAsync()).AsEnumerable();
+        {
+            var query = _dbContext.Funcionarios
+                        .Where(x => x.Active == true && x.Cargo.Level < level);
+
+            return (await query
+                          .Include(x => x.Cargo)
+                          .OrderBy(x => x.Nome)
+                          .ToListAsync()).AsEnumerable();
+        }
 
     }
 }

@@ -4,5 +4,6 @@
     {
         public long GestorId { get; set; }
         public string Nome { get; set; }
+        public int LevelCargo { get; set; }
     }
 }

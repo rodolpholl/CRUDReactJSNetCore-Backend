@@ -24,7 +24,12 @@ namespace CRUDReactJSNetCore.Application.Behaviors
                     .ToList();
 
                 if (failures.Any())
-                    throw new ValidationException($"{ConstantsUtils.VALIDATION_ERROR}|", failures);
+                {
+                    var falhas = failures.Select(x => x.ErrorMessage).ToArray();
+                    throw new ValidationException($"{ConstantsUtils.VALIDATION_ERROR}|{string.Join($"{Environment.NewLine}- ", falhas)}", failures);
+                }
+
+
             }
 
             return await next();

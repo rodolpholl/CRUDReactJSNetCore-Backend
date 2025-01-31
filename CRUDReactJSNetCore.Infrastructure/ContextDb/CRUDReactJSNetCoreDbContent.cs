@@ -72,7 +72,7 @@ namespace CRUDReactJSNetCore.Infrastructure.ContextDb
                     {
                         var funcionario = new Funcionario
                         {
-                            Nome = "Master",
+                            Nome = "Sys Admin",
                             Email = "admin@admin.com.br",
                             Active = true,
                             CargoId = 1,

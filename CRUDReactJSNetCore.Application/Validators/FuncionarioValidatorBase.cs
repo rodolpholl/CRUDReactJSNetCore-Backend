@@ -13,7 +13,7 @@ namespace CRUDReactJSNetCore.Application.Validators
         protected readonly ICargoRepository _cargoRepository;
 
         protected FuncionarioDomain _gestorEnviado;
-        protected Cargo _cargo;
+        protected Cargo _cargoEnviado;
 
         public FuncionarioValidatorBase(IFuncionarioRepository funcionarioRepository, ICargoRepository cargoRepository)
         {
@@ -24,14 +24,23 @@ namespace CRUDReactJSNetCore.Application.Validators
             RuleFor(x => x.DataNascimento).Cascade(CascadeMode.Stop)
                 .NotNull()
                 .Must(x =>
-                    x.Date >= DateTime.Now.AddYears(-18).Date
+                    x.Date < DateTime.Now.AddYears(-18).Date
                     )
                 .WithMessage("Funcionario cadastrado precisa ser maior de 18 anos.");
 
             RuleFor(x => x.Gestor).Cascade(CascadeMode.Stop)
                 .NotNull()
-                .Must(x => x.Gestor.Cargo.Level < x.Cargo.Level)
+                .MustAsync(async (model, x, ct) =>
+                {
+                    if (x == null)
+                        model.Gestor = await _funcionarioRepository.GetFuncionarioById(model.GestorId);
+
+                    return model.Cargo.Level > model.Gestor.Cargo.Level;
+                })
                 .WithMessage("O nível do Cargo cadastrado deve ser inferior ao do gestor");
+
+            RuleFor(x => x.Cargo).Cascade(CascadeMode.Stop)
+                .NotNull();
 
             RuleFor(x => x.Nome).Cascade(CascadeMode.Stop)
                 .NotEmpty()
@@ -43,6 +52,7 @@ namespace CRUDReactJSNetCore.Application.Validators
                 .EmailAddress();
 
             RuleFor(x => x.Telefone).Cascade(CascadeMode.Stop)
+                .NotNull()
                 .NotEmpty()
                 .Must(x => x[0].Length > 0)
                 .WithMessage("É preciso informar ao menos um telefone válido");
@@ -55,21 +65,21 @@ namespace CRUDReactJSNetCore.Application.Validators
         {
 
 
-            if (context.InstanceToValidate.GestorId <= 0)
+            if (context.InstanceToValidate.CargoId <= 0)
             {
                 result.Errors.Add(new ValidationFailure
                 {
-                    ErrorMessage = $"Informe o Gestor",
+                    ErrorMessage = $"Informe o Cargo",
                     Severity = Severity.Error
                 });
             }
             else
             {
 
-                _gestorEnviado = Task.Run(() => _funcionarioRepository.GetFuncionarioById(context.InstanceToValidate.GestorId))
+                _cargoEnviado = Task.Run(() => _cargoRepository.GetCargoById(context.InstanceToValidate.CargoId))
                                     .GetAwaiter().GetResult();
 
-                if (_gestorEnviado == null)
+                if (_cargoEnviado == null)
                 {
                     result.Errors.Add(new ValidationFailure
                     {
@@ -79,14 +89,14 @@ namespace CRUDReactJSNetCore.Application.Validators
 
                 }
                 else
-                    context.InstanceToValidate.Cargo = _cargo;
+                    context.InstanceToValidate.Cargo = _cargoEnviado;
             }
 
-            if (context.InstanceToValidate.CargoId <= 0)
+            if (context.InstanceToValidate.GestorId <= 0)
             {
                 result.Errors.Add(new ValidationFailure
                 {
-                    ErrorMessage = $"Informe o Cargo",
+                    ErrorMessage = $"Informe o Gestor",
                     Severity = Severity.Error
                 });
             }

@@ -23,7 +23,8 @@ namespace CRUDReactJSNetCore.Application.Feature.Funcionario.Query.ListGestores
                     .Select(x => new ListGestoresResponse
                     {
                         GestorId = x.Id,
-                        Nome = x.Nome
+                        Nome = x.Nome,
+                        LevelCargo = x.Cargo.Level
                     }).AsEnumerable();
 
 
