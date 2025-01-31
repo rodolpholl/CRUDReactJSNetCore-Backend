@@ -46,7 +46,7 @@ namespace CRUDReactJSNetCore.Infrastructure.Repository
         => await _dbContext.Set<T>().FindAsync(id);
 
         protected IQueryable<T> PaginateQuery(IQueryable<T> query, int pageIndex, int pageCont)
-        => query.Skip(pageIndex * pageCont).Take(pageCont);
+        => query.Skip((pageIndex - 1) * pageCont).Take(pageCont).AsQueryable();
 
         protected Task<bool> Exists(long id)
         => _dbContext.Set<T>().AnyAsync(x => x.Id == id);

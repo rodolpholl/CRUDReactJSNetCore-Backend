@@ -4,6 +4,6 @@ namespace CRUDReactJSNetCore.Application.Feature.Funcionario.Query.GetFuncionari
 {
     public class GetFuncionarioByIdRequest : IRequest<GetFuncionarioByIdResponse>
     {
-        public string FuncionarioId { get; set; }
+        public long FuncionarioId { get; set; }
     }
 }

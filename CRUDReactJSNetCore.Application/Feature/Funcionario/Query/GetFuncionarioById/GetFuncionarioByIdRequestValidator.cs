@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using FluentValidation;
 
 namespace CRUDReactJSNetCore.Application.Feature.Funcionario.Query.GetFuncionarioById
 {
-    public class GetFuncionarioByIdRequestValidator
+    public class GetFuncionarioByIdRequestValidator : AbstractValidator<GetFuncionarioByIdRequest>
     {
+        public GetFuncionarioByIdRequestValidator()
+        {
+            RuleFor(x => x.FuncionarioId)
+                .GreaterThan(0);
+        }
     }
 }

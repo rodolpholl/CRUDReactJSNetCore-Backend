@@ -33,7 +33,7 @@ namespace CRUDReactJSNetCore.Test.Tests
             IList<ListCargosResponse> listCargos = null;
             IList<ListGestoresResponse> listGestores = null;
 
-            Faker faker = new("pt_BR");
+
             HttpClient client = new()
             {
                 BaseAddress = new Uri(URL_BASE),
@@ -61,6 +61,7 @@ namespace CRUDReactJSNetCore.Test.Tests
             var result = new List<InserirFuncionarioRequest>();
             foreach (var gestorFuncionario in listGestores)
             {
+                Faker faker = new("pt_BR");
                 var cargoFuncionario = listCargos.FirstOrDefault(x => x.Level > gestorFuncionario.LevelCargo);
                 if (cargoFuncionario == null && gestorFuncionario.LevelCargo == 5)
                     cargoFuncionario = listCargos.FirstOrDefault(x => x.Level == 5);
@@ -93,7 +94,7 @@ namespace CRUDReactJSNetCore.Test.Tests
         }
 
         [Fact]
-
+        [TestPriority(1)]
         public async Task GivenFuncionario_ShouldInsertFuncionario()
         {
             var listIsert = GenerateInsertSource();
@@ -102,6 +103,7 @@ namespace CRUDReactJSNetCore.Test.Tests
                 Assert.Fail("Nenhum Funcionario para inclusão");
 
             var urlListGestor = $"api";
+            bool valid = true;
 
             foreach (var insert in listIsert)
             {
@@ -114,11 +116,14 @@ namespace CRUDReactJSNetCore.Test.Tests
 
                 using var response = await _client.PostAsync(urlListGestor, content);
 
+
+
                 // When
                 if (response.IsSuccessStatusCode)
                 {
                     // Then
-                    var strResponse = await response.Content.ReadAsStringAsync();
+                    var str = new StreamReader(response.Content.ReadAsStream());
+                    var strResponse = str.ReadToEnd(); //await response.Content.ReadAsStringAsync();
 
                     // When
                     // Given
@@ -126,15 +131,22 @@ namespace CRUDReactJSNetCore.Test.Tests
                     {
 
                         // Then
-                        Assert.True(idFuncionario > 1);
+                        valid = idFuncionario > 1;
                     }
                     else // Then
                         Assert.Fail("Falha na inclusão do funcionário");
 
                 }
                 else // Then
-                    Assert.Fail("Falha na inclusão do funcionário");
+                {
+                    var str = new StreamReader(response.Content.ReadAsStream());
+                    var strResponse = str.ReadToEnd();
+
+                    Assert.Fail($"Falha na inclusão do funcionário: {strResponse}");
+                }
             }
+
+            Assert.True(valid);
 
         }
 

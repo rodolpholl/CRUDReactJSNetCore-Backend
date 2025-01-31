@@ -9,6 +9,6 @@
         public DateTime DataNascimento { get; set; }
         public required string Documento { get; set; }
         public string[]? Telefone { get; set; }
-        public long GestorId { get; set; }
+        public long? GestorId { get; set; }
     }
 }

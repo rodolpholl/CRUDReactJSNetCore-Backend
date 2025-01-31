@@ -1,12 +1,15 @@
 using CRUDReactJSNetCore.Application;
 using CRUDReactJSNetCore.Application.Feature.Funcionario.Command.AlterarFuncionario;
 using CRUDReactJSNetCore.Application.Feature.Funcionario.Command.InserirFuncionario;
+using CRUDReactJSNetCore.Application.Feature.Funcionario.Query.GetFuncionarioById;
 using CRUDReactJSNetCore.Application.Feature.Funcionario.Query.ListCargos;
+using CRUDReactJSNetCore.Application.Feature.Funcionario.Query.ListFuncionario;
 using CRUDReactJSNetCore.Application.Feature.Funcionario.Query.ListGestores;
 using CRUDReactJSNetCore.Infrastructure;
 using CRUDReactJSNetCore.Infrastructure.ContextDb;
 using Funcionario.Api;
 using MediatR;
+using Microsoft.AspNetCore.Mvc;
 using Serilog;
 using System.Text.Json.Serialization;
 
@@ -144,6 +147,36 @@ namespace CRUDReactJSNetCore.API
                     return RequestHelper.ExceptionResult(ex);
                 }
             });
+
+
+            app.MapGet("/api/{pageIndex}/{pageCount}", async Task<IResult> ([FromRoute] int pageIndex, [FromRoute] int pageCount, [FromQuery] string? filter, IMediator mediator) =>
+            {
+                try
+                {
+                    var result = await mediator.Send(new ListFuncionarioRequest() { PageIndex = pageIndex, PageCount = pageCount, Filtro = filter });
+
+                    return Results.Ok(result);
+                }
+                catch (Exception ex)
+                {
+                    return RequestHelper.ExceptionResult(ex);
+                }
+            });
+
+            app.MapGet("/api", async Task<IResult> ([FromQuery] long id, IMediator mediator) =>
+            {
+                try
+                {
+                    var result = await mediator.Send(new GetFuncionarioByIdRequest() { FuncionarioId = id });
+
+                    return Results.Ok(result);
+                }
+                catch (Exception ex)
+                {
+                    return RequestHelper.ExceptionResult(ex);
+                }
+            });
+
             #endregion Queries
 
 
