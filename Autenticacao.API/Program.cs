@@ -18,10 +18,11 @@ namespace Autenticacao.API
             builder.Host.UseSerilog((context, configuration) =>
                         configuration.ReadFrom.Configuration(context.Configuration)
                         .MinimumLevel.Debug()
+                        .MinimumLevel.Verbose()
                         .MinimumLevel.Override("Microsoft", Serilog.Events.LogEventLevel.Information)
                         .WriteTo.Console()
                         .WriteTo.File(
-                            path: Path.Combine(Directory.GetCurrentDirectory(), "logs", "log-.txt"),
+                            path: Path.Combine(Directory.GetCurrentDirectory(), "log-.txt"),
                             rollingInterval: RollingInterval.Day,
                             outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level:u3}] {Message:lj}{NewLine}{Exception}}"
                          )
