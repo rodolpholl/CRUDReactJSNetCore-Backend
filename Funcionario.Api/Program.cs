@@ -1,6 +1,9 @@
 using CRUDReactJSNetCore.Application;
 using CRUDReactJSNetCore.Application.Feature.Funcionario.Command.AlterarFuncionario;
+using CRUDReactJSNetCore.Application.Feature.Funcionario.Command.DesativarFuncionario;
+using CRUDReactJSNetCore.Application.Feature.Funcionario.Command.ExcluirFuncionario;
 using CRUDReactJSNetCore.Application.Feature.Funcionario.Command.InserirFuncionario;
+using CRUDReactJSNetCore.Application.Feature.Funcionario.Command.ReativarFuncionario;
 using CRUDReactJSNetCore.Application.Feature.Funcionario.Query.GetFuncionarioById;
 using CRUDReactJSNetCore.Application.Feature.Funcionario.Query.ListCargos;
 using CRUDReactJSNetCore.Application.Feature.Funcionario.Query.ListFuncionario;
@@ -104,6 +107,48 @@ namespace CRUDReactJSNetCore.API
                     RequestHelper.ValidarPayload(requestBody);
 
                     var result = await mediator.Send(requestBody);
+
+                    return Results.Ok(result);
+                }
+                catch (Exception ex)
+                {
+                    return RequestHelper.ExceptionResult(ex);
+                }
+            });
+
+            app.MapPatch("/api/{id:long}/desativar", async Task<IResult> (long id, IMediator mediator) =>
+            {
+                try
+                {
+                    var result = await mediator.Send(new DesativarFuncionarioRequest { FuncionarioId = id });
+
+                    return Results.Ok(result);
+                }
+                catch (Exception ex)
+                {
+                    return RequestHelper.ExceptionResult(ex);
+                }
+            });
+
+            app.MapPatch("/api/{id:long}/reativar", async Task<IResult> (long id, IMediator mediator) =>
+            {
+                try
+                {
+                    var result = await mediator.Send(new ReativarFuncionarioRequest { FuncionarioId = id });
+
+                    return Results.Ok(result);
+                }
+                catch (Exception ex)
+                {
+                    return RequestHelper.ExceptionResult(ex);
+                }
+            });
+
+            app.MapDelete("/api/{id:long}", async Task<IResult> (long id, IMediator mediator) =>
+            {
+                try
+                {
+                    var result = await mediator.Send(new ExcluirFuncionarioRequest { FuncionarioId = id });
 
                     return Results.Ok(result);
                 }
