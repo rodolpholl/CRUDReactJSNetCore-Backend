@@ -21,7 +21,7 @@ namespace CRUDReactJSNetCore.Infrastructure.ModelMapping
             builder.HasIndex(x => x.Active, "IDX_FUNCIONARIO_ACTIVE");
 
             builder.Property(x => x.TelefoneString).HasColumnName("Telefone").HasMaxLength(1500).IsRequired();
-            builder.Property(x => x.Senha).HasMaxLength(60);
+            builder.Property(x => x.Senha).HasMaxLength(300);
             builder.Property(x => x.Documento).HasMaxLength(150).IsRequired();
 
             #region Relacionamentos

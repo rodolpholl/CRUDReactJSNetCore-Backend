@@ -83,7 +83,7 @@ namespace CRUDReactJSNetCore.Test.Tests
                         ConfirmarSenha = "Admin@123"
                     };
                     content = new StringContent(JsonConvert.SerializeObject(altFuncionario), Encoding.UTF8, "application/json");
-                    response = await _client.PostAsync(urlAlterarDadosAutenticacao, content);
+                    response = await _client.PatchAsync(urlAlterarDadosAutenticacao, content);
                     response.EnsureSuccessStatusCode();
                     alteracao = JsonConvert.DeserializeObject<bool>((await response.Content.ReadAsStringAsync()));
 

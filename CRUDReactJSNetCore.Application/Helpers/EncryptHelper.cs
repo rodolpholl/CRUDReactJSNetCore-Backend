@@ -2,10 +2,10 @@
 {
     public static class EncryptHelper
     {
-        public static string EncriptarPassword(string conteudo)
-            => BCrypt.Net.BCrypt.HashPassword(conteudo);
+        public static string EncriptarPassword(string password)
+            => BCrypt.Net.BCrypt.HashPassword(password);
 
-        public static bool Validar(string contentA, string contentB)
-            => BCrypt.Net.BCrypt.Verify(contentA, contentB);
+        public static bool Validar(string password, string hashedPassword)
+            => BCrypt.Net.BCrypt.Verify(password, hashedPassword);
     }
 }
