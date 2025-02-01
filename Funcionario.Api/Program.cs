@@ -58,8 +58,21 @@ namespace CRUDReactJSNetCore.API
                 options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
             });
 
-            var app = builder.Build();
 
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowFrontend",
+                    policy =>
+                    {
+                        policy.WithOrigins("http://localhost:3000")
+                              .AllowAnyHeader()
+                              .AllowAnyMethod();
+                    });
+            });
+
+
+            var app = builder.Build();
+            app.UseCors("AllowFrontend");
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
@@ -70,6 +83,8 @@ namespace CRUDReactJSNetCore.API
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
+
+
 
             //Chamada para criação do banco de dados
             using (var scope = app.Services.CreateScope())
