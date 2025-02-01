@@ -62,11 +62,16 @@ namespace CRUDReactJSNetCore.Infrastructure.Repository
 
         }
 
-        private IQueryable<Funcionario> setIncludes(IQueryable<Funcionario> query)
-        => query.Include(x => x.Cargo)
-                .Include(x => x.Gestor)
-                    .ThenInclude(x => x.Cargo)
-            .AsQueryable();
+        public Task<Funcionario> GetFuncionarioByEmail(string email, bool addRelationships = true)
+        {
+            var query = _dbContext.Funcionarios.Where(x => x.Email == email).AsQueryable();
+
+            if (addRelationships)
+                query = setIncludes(query);
+
+            return query.FirstOrDefaultAsync();
+        }
+
 
         public Task<bool> FuncionarioExists(long funcinarioId)
         => Exists(funcinarioId);
@@ -95,5 +100,15 @@ namespace CRUDReactJSNetCore.Infrastructure.Repository
                           .ToListAsync()).AsEnumerable();
         }
 
+
+
+        private IQueryable<Funcionario> setIncludes(IQueryable<Funcionario> query)
+        => query.Include(x => x.Cargo)
+                .Include(x => x.Gestor)
+                    .ThenInclude(x => x.Cargo)
+            .AsQueryable();
+
     }
 }
+
+

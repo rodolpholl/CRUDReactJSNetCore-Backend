@@ -11,7 +11,7 @@ namespace CRUDReactJSNetCore.Application.Utils
             const string lowercase = "abcdefghijklmnopqrstuvwxyz";
             const string uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
             const string digitos = "0123456789";
-            const string caracteresEspeciais = "!@#$%^&*()_+-=[]{}|;:,.<>?";
+            const string caracteresEspeciais = "!@#$%";
 
             // Garantindo que cada tipo de caractere esteja presente
             StringBuilder password = new StringBuilder();

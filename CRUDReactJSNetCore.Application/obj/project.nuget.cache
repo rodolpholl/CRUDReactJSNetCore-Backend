@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LHpxUD/U79c=",
+  "dgSpecHash": "07FxRlr+IRk=",
   "success": true,
   "projectFilePath": "E:\\Projetos\\CRUDReactJSNetCore\\backend\\CRUDReactJSNetCore.Application\\CRUDReactJSNetCore.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\rodol\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\rodol\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
     "C:\\Users\\rodol\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.11.0\\fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",
     "C:\\Users\\rodol\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",

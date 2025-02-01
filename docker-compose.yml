@@ -15,6 +15,8 @@ services:
   funcionario.api:
     container_name: funcionario.api
     image: ${DOCKER_REGISTRY-}funcionarioapi
+    depends_on: 
+      - db
     ports:
       - "9000:8080"
     build:
@@ -22,6 +24,17 @@ services:
       dockerfile: Funcionario.Api/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
+
+  autenticacao.api:
+    image: ${DOCKER_REGISTRY-}autenticacaoapi
+    depends_on: 
+      - db
+      - funcionario.api
+    ports:
+      - "9001:8080"
+    build:
+      context: .
+      dockerfile: Autenticacao.API/Dockerfile
 
 volumes:
   sql_data:

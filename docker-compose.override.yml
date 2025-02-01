@@ -6,3 +6,14 @@ services:
       - ASPNETCORE_HTTP_PORTS=8080
     ports:
       - "9000:8080"
+
+  autenticacao.api:
+    environment:
+      - DOTNET_RUNNING_IN_CONTAINER=true
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+    ports:
+      - "9001:8080"
+   
+
+

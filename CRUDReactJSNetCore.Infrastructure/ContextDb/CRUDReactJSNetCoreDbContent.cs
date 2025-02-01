@@ -1,4 +1,5 @@
-﻿using CRUDReactJSNetCore.Domain.Entities;
+﻿using CRUDReactJSNetCore.Application.Helpers;
+using CRUDReactJSNetCore.Domain.Entities;
 using CRUDReactJSNetCore.Infrastructure.ModelMapping;
 using Microsoft.EntityFrameworkCore;
 
@@ -76,7 +77,7 @@ namespace CRUDReactJSNetCore.Infrastructure.ContextDb
                             Email = "admin@admin.com.br",
                             Active = true,
                             CargoId = 1,
-                            Senha = "Admin123",
+                            Senha = EncryptHelper.EncriptarPassword("Admin@123"),
                             Documento = "123AdminDoc",
                             TelefoneString = "123456789",
                             DataCriacao = DateTime.Now

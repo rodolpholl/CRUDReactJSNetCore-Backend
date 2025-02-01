@@ -1,4 +1,5 @@
-﻿using CRUDReactJSNetCore.Application.Repository;
+﻿using CRUDReactJSNetCore.Application.Helpers;
+using CRUDReactJSNetCore.Application.Repository;
 using CRUDReactJSNetCore.Application.Utils;
 using MediatR;
 using Serilog;
@@ -21,6 +22,8 @@ namespace CRUDReactJSNetCore.Application.Feature.Funcionario.Command.InserirFunc
         {
             try
             {
+                var password = BCrypt.Net.BCrypt.HashPassword(FuncionarioUtils.GeneratePassword());
+
                 var insertFuncionario = new FuncionarioDomain
                 {
                     Nome = request.Nome,
@@ -28,7 +31,7 @@ namespace CRUDReactJSNetCore.Application.Feature.Funcionario.Command.InserirFunc
                     Cargo = request.Cargo,
                     DataNascimento = request.DataNascimento,
                     DataCriacao = DateTime.Now,
-                    Senha = FuncionarioUtils.GeneratePassword(),
+                    Senha = EncryptHelper.EncriptarPassword(password),
                     Email = request.Email,
                     Gestor = request.Gestor,
                     Telefone = request.Telefone,

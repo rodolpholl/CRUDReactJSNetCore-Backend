@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRUDReactJSNetCore.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80b45369636101e603a501d48fbb65a15360d7cd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1143349e38aa6c6ab795628e2b83784a3918f378")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRUDReactJSNetCore.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRUDReactJSNetCore.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

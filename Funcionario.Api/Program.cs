@@ -71,9 +71,10 @@ namespace CRUDReactJSNetCore.API
 
             app.UseAuthorization();
 
+            //Chamada para criação do banco de dados
             using (var scope = app.Services.CreateScope())
             {
-                var dbContext = scope.ServiceProvider.GetRequiredService<CRUDReactJSNetCoreDbContent>();
+                scope.ServiceProvider.GetRequiredService<CRUDReactJSNetCoreDbContent>();
             }
 
 
