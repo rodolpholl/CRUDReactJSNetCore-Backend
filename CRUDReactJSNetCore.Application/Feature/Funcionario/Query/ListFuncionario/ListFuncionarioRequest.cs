@@ -7,5 +7,6 @@ namespace CRUDReactJSNetCore.Application.Feature.Funcionario.Query.ListFuncionar
         public int PageIndex { get; set; }
         public int PageCount { get; set; }
         public string? Filtro { get; set; }
+        public bool? AddDesativados { get; set; }
     }
 }

@@ -10,7 +10,7 @@ namespace CRUDReactJSNetCore.Application.Repository
 
         Task<Funcionario> GetFuncionarioById(long funcionarioId, bool addRelationships = true);
         Task<Funcionario> GetFuncionarioByEmail(string email, bool addRelationships = true);
-        Task<List<Funcionario>> ListFuncionarios(int pageIndex, int pageCount, string filter, bool addRelationships = true);
+        Task<List<Funcionario>> ListFuncionarios(int pageIndex, int pageCount, string filter, bool addRelationships = true, bool addDesativados = false);
 
 
         Task<bool> FuncionarioExists(long funcinarioId);

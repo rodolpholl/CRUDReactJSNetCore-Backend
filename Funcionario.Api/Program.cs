@@ -210,11 +210,11 @@ namespace CRUDReactJSNetCore.API
             });
 
 
-            app.MapGet("/api/{pageIndex}/{pageCount}", async Task<IResult> ([FromRoute] int pageIndex, [FromRoute] int pageCount, [FromQuery] string? filter, IMediator mediator) =>
+            app.MapGet("/api/{pageIndex}/{pageCount}", async Task<IResult> ([FromRoute] int pageIndex, [FromRoute] int pageCount, [FromQuery] string? filter, [FromQuery] bool? addDesativados, IMediator mediator) =>
             {
                 try
                 {
-                    var result = await mediator.Send(new ListFuncionarioRequest() { PageIndex = pageIndex, PageCount = pageCount, Filtro = filter });
+                    var result = await mediator.Send(new ListFuncionarioRequest() { PageIndex = pageIndex, PageCount = pageCount, Filtro = filter, AddDesativados = addDesativados });
 
                     return Results.Ok(result);
                 }

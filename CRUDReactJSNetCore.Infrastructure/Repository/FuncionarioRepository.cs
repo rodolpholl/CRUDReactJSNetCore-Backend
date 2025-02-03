@@ -33,9 +33,13 @@ namespace CRUDReactJSNetCore.Infrastructure.Repository
 
 
 
-        public Task<List<Funcionario>> ListFuncionarios(int pageIndex, int pageCount, string filter, bool addRelationships = true)
+        public Task<List<Funcionario>> ListFuncionarios(int pageIndex, int pageCount, string filter, bool addRelationships = true, bool addDesativados = false)
         {
-            var query = _dbContext.Funcionarios.Where(x => x.Active == true);
+            var query = _dbContext.Funcionarios.AsQueryable();
+
+            if (!addDesativados)
+                query = query.Where(x => x.Active == true);
+
 
             if (!string.IsNullOrWhiteSpace(filter))
             {
