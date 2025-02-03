@@ -19,7 +19,7 @@ namespace CRUDReactJSNetCore.Application.Feature.Funcionario.Query.ListFuncionar
         {
             try
             {
-                var listResult = await _funcionarioRepository.ListFuncionarios(request.PageIndex, request.PageCount, request.Filtro);
+                var listResult = await _funcionarioRepository.ListFuncionarios(request.PageIndex, request.PageCount, request.AddDesativados, request.Filtro);
 
                 return listResult.Select(x => new ListFuncionarioResponse
                 {
@@ -27,7 +27,10 @@ namespace CRUDReactJSNetCore.Application.Feature.Funcionario.Query.ListFuncionar
                     Nome = x.Nome,
                     Email = x.Email,
                     Gestor = x.Gestor?.Nome,
-                    Id = x.Id
+                    Id = x.Id,
+                    Active = x.Active,
+                    Telefone = string.Join(", ", x.Telefone),
+                    Documento = x.Documento
                 }).AsEnumerable();
 
 

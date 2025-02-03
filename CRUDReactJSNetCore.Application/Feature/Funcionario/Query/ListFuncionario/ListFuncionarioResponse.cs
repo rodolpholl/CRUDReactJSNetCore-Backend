@@ -7,5 +7,8 @@
         public string Email { get; set; }
         public string Cargo { get; set; }
         public string Gestor { get; set; }
+        public string Documento { get; set; }
+        public string Telefone { get; set; }
+        public bool Active { get; set; }
     }
 }
